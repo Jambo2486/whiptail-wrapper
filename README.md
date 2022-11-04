@@ -1,6 +1,6 @@
 # Simple Whiptail wrapper
 ## Requires Whiptail to be installed!
-## To do this on Replit:
+### To do this on Replit:
 - Open the shell tab on Replit
 - Enter `whiptail`
 - Hit enter

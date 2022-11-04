@@ -9,9 +9,9 @@
 ## Examples:
 ```from whiptail import Box```
 ### Inline:
-```print(Box("text", optional_flags = "argument").prompt("options")))```
+```print(Box("text", optional_flags = "argument").prompt("options"))```
 ### Block:
 ```
 box = Box("text", optional_flags = "argument")  
-print(box.prompt("options")))
+print(box.prompt("options"))
 ```

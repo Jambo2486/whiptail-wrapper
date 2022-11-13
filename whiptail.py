@@ -61,7 +61,7 @@ class Box:
 				 backtitle = None,
 				 full_buttons = False
 				):
-		self.text = "" if len(text) == 0 else "\n" + text
+		self.text = "" if len(text) == 0 else "" + text if title is None else "\n" + text
 		self.width = width
 		self.height = height
 		flags = []
